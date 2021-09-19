@@ -1,11 +1,11 @@
 import './App.css';
 import './appStyles.css';
-import LifecycleA from './components/LifecycleA';
+import RegularParentComponent from './components/RegularParentComponent';
 
 function App() {
   return (
     <div className='App'>
-      <LifecycleA />
+      <RegularParentComponent />
     </div>
   );
 }
