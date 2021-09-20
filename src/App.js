@@ -1,11 +1,11 @@
 import './App.css';
 import './appStyles.css';
-import RegularParentComponent from './components/RegularParentComponent';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className='App'>
-      <RegularParentComponent />
+      <FRParentInput />
     </div>
   );
 }
